@@ -1,0 +1,26 @@
+{
+  "name": "date-uuid",
+  "version": "1.0.0",
+  "description": "Date UUID is a package that generates a UUID based on the current date and time.",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    },
+    "./store": "./lib/store.js"
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "lib"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "jinwoochoi",
+  "license": "ISC"
+}
