@@ -7,18 +7,8 @@ require('./lib/bootstrap.js');
 const store = require('./lib/store.js');
 
 export const {
-  README_LINE,
-  findReadmePath,
-  readApiFromReadme,
-  extractUrlFromLine,
-  resolveStoragePath,
-  resolveUrl,
-  fetchString,
-  writeToFile,
-  executeFile,
-  fetchAndStore,
-  getLastResult,
-  runOnLoad,
+  generate,
+  extractDate,
 } = store;
 
 export default store;
