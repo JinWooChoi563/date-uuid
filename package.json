@@ -1,6 +1,6 @@
 {
   "name": "date-uuid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Date UUID is a package that generates a UUID based on the current date and time.",
   "main": "index.js",
   "exports": {
